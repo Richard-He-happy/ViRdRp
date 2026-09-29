@@ -9,6 +9,13 @@
 >
 > Displayed entries such as `Sample-001` and `XXXX` are placeholders and do not represent the underlying research dataset.
 
+> [!IMPORTANT]
+> **公开演示版本**
+>
+> 本公开版本已去除真实研究数据，只展示网站可视化框架。研究数据、序列信息、蛋白质标识符、可下载结构、搜索功能及其他敏感数据集内容均已删除或匿名化。
+>
+> 页面中显示的 `Sample-001`、`XXXX` 等内容均为占位符，不代表底层真实研究数据集。
+
 ## Website
 
 [https://richard-he-happy.github.io/ViRdRp/](https://richard-he-happy.github.io/ViRdRp/)

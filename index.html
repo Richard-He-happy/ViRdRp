@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ViRdRp — Sanitized Public Demo</title>
+    <link rel="icon" href="./fig/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./vendor/pdbe-molstar/pdbe-molstar.css" />
+    <script src="./vendor/pdbe-molstar/pdbe-molstar-plugin.js"></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#/mcl" data-route><img src="./fig/logo.svg" alt="ViRdRp" /><span>ViRdRp</span></a>
+      <nav class="nav">
+        <div class="nav-group"><a href="#/mcl" data-route>Home</a><div class="menu"><a href="#/mcl" data-route>MCL</a><a href="#/njtree" data-route>NJtree</a><a href="#/heatmap" data-route>Heatmap</a></div></div>
+        <a href="#/about" data-route>About</a>
+        <a href="#" data-disabled>Download</a>
+        <div class="nav-group"><button type="button">Other</button><div class="menu"><a href="#/hmm-search" data-route>HMM_search</a></div></div>
+      </nav>
+      <form class="search" id="global-search"><select name="mode" aria-label="Search mode"><option value="disabled">Search</option></select><input name="q" aria-label="Search query" placeholder="Search is disabled" /><button type="submit">Search</button></form>
+    </header>
+    <main id="app" class="app"></main>
+    <footer class="footer"><span class="footer-mark"><img src="./fig/hunan-logo.svg" alt="University logo" />Research software prototype</span><span class="footer-mark"><img src="./fig/logo.svg" alt="ViRdRp" />Sanitized public demonstration</span></footer>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
